@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/tools">
+    <menu>
+        <item
+            android:id="@+id/delete"
+            android:title="delete"
+            />
+
+        <item
+            android:id="@+id/forward"
+            android:title="forward"/>
+        <item
+            android:id="@+id/reply"
+            android:title="reply"
+            />
+    </menu>
+</resources>

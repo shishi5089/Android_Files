@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Banking System</string>
+    <string-array name="Countries">
+        <item>KENYA</item>
+        <item>UGANDA</item>
+        <item>TANZANIA</item>
+        <item>RWANDA</item>
+        <item>ZANZIBAR</item>
+        <item>ETHIOPIA</item>
+        <item>EGYPT</item>
+
+    </string-array>
+    <string-array name="Banks">
+        <item>COMMERCIAL BANK</item>
+        <item>BARCLAYS BANK</item>
+        <item>EQUITY BANK</item>
+        <item>NATIONAL BANK</item>
+        <item>AFRICAN BANK</item>
+        <item>PANAFRICAN BANK</item>
+
+
+        </string-array>
+</resources>

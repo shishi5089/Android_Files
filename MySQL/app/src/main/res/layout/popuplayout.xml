@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/popUser"
+        android:text="UserName"
+        android:layout_alignTop="@+id/popPhone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/popPhone"
+        android:text="Phone Number"
+        android:layout_alignTop="@+id/popPhoneAction"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/popEmail"
+        android:text="Email"
+        android:layout_alignTop="@+id/popUser"
+        android:layout_alignRight="@+id/popUser"
+        android:layout_alignEnd="@+id/popUser"
+        android:layout_marginTop="38dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/Delete"
+        android:text="DELETE"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/popPhoneAction"
+        android:layout_toEndOf="@+id/popPhoneAction"
+        android:layout_marginTop="26dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/EmailAction"
+        android:text="EMAIL"
+        android:layout_alignBottom="@+id/popPhone"
+        android:layout_toRightOf="@+id/Delete"
+        android:layout_toEndOf="@+id/Delete"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp"
+        android:layout_alignTop="@+id/Delete" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/popPhoneAction"
+        android:text="CALL"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_alignTop="@+id/Delete"
+        android:layout_toRightOf="@+id/popPhone"
+        android:layout_toEndOf="@+id/popPhone" />
+
+
+
+
+
+
+
+
+</RelativeLayout>
